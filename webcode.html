@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وظائف الوطنية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>وظائف الوطنية</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="ابحث عن وظائف...">
+            <button>بحث</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Left Column: Job Details -->
+        <section id="job-details">
+            <h2>تفاصيل الوظيفة</h2>
+            <p><strong>المسمى الوظيفي:</strong> <span id="detail-title">غسّال أطباق</span></p>
+            <p><strong>الشركة:</strong> <span id="detail-company">مارريوت إنترناشيونال</span></p>
+            <p><strong>الموقع:</strong> <span id="detail-location">كولومبوس، أوهايو 43215</span></p>
+            <p><strong>الوصف:</strong> <span id="detail-description">عادةً ما يتم الرد خلال 4 أيام</span></p>
+            <button id="apply-now">تقديم الآن</button>
+        </section>
+
+        <!-- Right Column: Job Listings -->
+        <section id="job-listings">
+            <article class="job" data-selected="true">
+                <h2>غسّال أطباق</h2>
+                <p><strong>الشركة:</strong> مارريوت إنترناشيونال</p>
+                <p><strong>الموقع:</strong> كولومبوس، أوهايو 43215</p>
+                <p><strong>وقت الاستجابة:</strong> عادةً ما يتم الرد خلال 4 أيام</p>
+                <button>عرض التفاصيل</button>
+            </article>
+
+            <article class="job">
+                <h2>غسّال أطباق</h2>
+                <p><strong>الشركة:</strong> سوديكسو</p>
+                <p><strong>الموقع:</strong> نيوبورت بيتش، كاليفورنيا 92660</p>
+                <button>عرض التفاصيل</button>
+            </article>
+
+            <article class="job">
+                <h2>مساعد / غسّال أطباق</h2>
+                <p><strong>الشركة:</strong> إس إس بي</p>
+                <p><strong>الموقع:</strong> سان فرانسيسكو، كاليفورنيا 94128</p>
+                <button>عرض التفاصيل</button>
+            </article>
+
+            <article class="job">
+                <h2>غسّال أطباق</h2>
+                <p><strong>الشركة:</strong> مارريوت إنترناشيونال</p>
+                <p><strong>الموقع:</strong> 50 شارع نورث ثيرد، كولومبوس، أوهايو 43215</p>
+                <p><strong>ملاحظة:</strong> يجب إنشاء حساب على Indeed قبل التقديم.</p>
+                <button>عرض التفاصيل</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 وظائف الوطنية. جميع الحقوق محفوظة.</p>
+        <nav>
+            <a href="#">سياسة الخصوصية</a> | 
+            <a href="#">شروط الخدمة</a> | 
+            <a href="#">اتصل بنا</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
